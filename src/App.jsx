@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { gods } from './gods';
 import GodThemeProvider from './components/GodThemeProvider';
@@ -54,8 +54,8 @@ function AppInner() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AppInner />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
