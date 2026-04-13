@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@400;700&family=Raleway:wght@300;400;500;600&display=swap');
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Raleway', sans-serif;
+    background: #000;
+    overflow-x: hidden;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-cinzel-decorative {
+  font-family: 'Cinzel Decorative', serif;
+}
+
+#particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.god-glow {
+  text-shadow:
+    0 0 20px var(--god-primary),
+    0 0 40px var(--god-primary),
+    0 0 80px var(--god-secondary);
+}
+
+.god-glow-sm {
+  text-shadow:
+    0 0 10px var(--god-primary),
+    0 0 20px var(--god-secondary);
+}
+
+.rune-border {
+  border: 1px solid transparent;
+  background:
+    linear-gradient(#000, #000) padding-box,
+    var(--god-gradient) border-box;
+}
+
+.god-btn {
+  background: var(--god-gradient);
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.god-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: var(--god-primary); border-radius: 2px; }
