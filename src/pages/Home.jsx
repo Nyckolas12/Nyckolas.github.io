@@ -58,7 +58,7 @@ export default function Home() {
         transition={{ delay: 0.8 }}
         className="text-gray-400 max-w-xl text-base leading-relaxed mb-10 font-light"
       >
-        Software Engineer | Backend Developer (with expertise in C++ | C#) who is passionate about making a difference in the world
+        Software and Game Developer (with expertise in C++ | C#) who is passionate about making a difference in the world
       </motion.p>
 
       {/* Lore quote */}

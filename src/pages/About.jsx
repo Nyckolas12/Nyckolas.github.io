@@ -36,11 +36,9 @@ export default function About() {
             The Chronicle
           </motion.p>
           <motion.p {...fadeUp(0.3)} className="text-gray-300 leading-relaxed mb-4 font-light">
-            What is something I can say about myself to be more intreasting AHHH.
+            I’m a game developer at heart, dedicated to crafting immersive fantasy worlds where creativity, storytelling, and gameplay seamlessly come together to create memorable experiences that inspire adventure and imagination.
           </motion.p>
-          <motion.p {...fadeUp(0.4)} className="text-gray-400 leading-relaxed font-light">
-            A second paragraph. Maybe where you're from, what you're currently working on, or what excites you about your craft.
-          </motion.p>
+        
 
           <motion.p
             {...fadeUp(0.5)}

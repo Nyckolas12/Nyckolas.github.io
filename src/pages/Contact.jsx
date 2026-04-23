@@ -6,8 +6,8 @@ const god = gods.contact;
 
 const socialLinks = [
   { label: 'GitHub', handle: '@Nyckolas12', url: 'https://github.com/Nyckolas12' },
-  { label: 'LinkedIn', handle: 'Your Name', url: '#' },
-  { label: 'Email', handle: 'your@email.com', url: 'mailto:your@email.com' },
+  { label: 'LinkedIn', handle: 'Nyckolas Mendez', url: 'https://www.linkedin.com/in/nyckolas-mendez-979314294/?trk=opento_sprofile_goalscard' },
+  { label: 'Email', handle: 'nycko0519@gmail.com', url: 'mailto:nycko0519@gmail.com' },
 ];
 
 export default function Contact() {
