@@ -10,6 +10,7 @@ const skillGroups = [
     skills: [
       { name: 'C++', level: 90 },
       { name: 'C#', level: 80 },
+      { name: 'Python', level: 60 },
       
     ],
   },

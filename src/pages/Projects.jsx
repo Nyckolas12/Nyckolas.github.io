@@ -11,7 +11,7 @@ const projects = [
     description: 'Worlds Beyond Us is an open-world fantasy RPG that involes duel protagonists, a rich narrative, and a vast world to explore. Players will embark on an epic journey through diverse landscapes, from enchanted forests to ancient ruins, uncovering hidden secrets and forging their own destiny in a realm teeming with magic and mystery.',
     tech: ['Unreal Engine', 'C++', 'Metahuman'],
     link: '#',
-    repo: '#',
+    repo: 'https://github.com/Nyckolas12/Worlds-Beyond/tree/main',
     status: 'In Progress',
     media: '/Nyckolas.github.io/videos/Worlds-Beyond-Us.mp4',
     mediaType: 'video',
